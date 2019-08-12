@@ -2,6 +2,7 @@
 import React, { useState, Component } from "react";
 import "./App.css";
 import BottomRow from "./BottomRow";
+import Timer from './Timer';
 
 
 function App() {
@@ -24,8 +25,8 @@ function App() {
 
         { /* TODO STEP 3 - We need to change the hardcoded values in these divs to accept dynamic values from our state. */ }
 
-        <
-        div className = "home__score" > { LionScore } < /div> </div > < div className = "timer" > 00: 03 < /div> <div className = "away" > <
+        // <
+        div className = "home__score" > { LionScore } < /div> </div > < dtimer / > 00: 03 < /div> <div className = "away" > <
         h2 className = "away__name" > Tigers < /h2> <div className = "away__score" > { TigerScore } < /div > < /div > </div > < BottomRow / >
         <
         /section> <section className = "buttons" > <
@@ -54,5 +55,3 @@ function App() {
         div >
     );
 }
-
-export default App;
