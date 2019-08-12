@@ -8,9 +8,15 @@ const Timer = () => {
   };
   return (
     <div>
-      <div className="timer"> 00: 03 </div>
+      <div className="timer"> {time} </div>
 
-      <button onClick={() => startTimer()}> Start TImer </button>
+      <button
+        onClick={() => {
+          startTimer();
+        }}
+      >
+        Start Timer
+      </button>
     </div>
   );
 };
